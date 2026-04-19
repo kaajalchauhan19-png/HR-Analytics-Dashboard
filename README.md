@@ -1,40 +1,62 @@
-**📊 HR Attrition Analysis Dashboard**
-📌 **Problem Statement**
+# 📊 HR Attrition Analysis Dashboard
 
-Employee attrition is a critical challenge impacting organizational performance and cost. This project analyzes HR data to identify patterns and key factors contributing to employee turnover.
+## 📌 Executive Summary
+This dashboard analyzes employee attrition to identify key drivers behind workforce turnover.  
+The analysis reveals that the **Sales department has the highest attrition rate (20.6%)**, particularly among employees in early and mid-career stages.  
+Additionally, **overtime emerges as a major contributing factor**, indicating potential workload imbalance and employee burnout risks.
 
-**📂 Dataset**
-HR Employee dataset
-Total Records: ~1470 employees
-Key fields: Age, Department, Job Role, Salary, Attrition, Years at Company, OverTime
+---
 
-**📈 Key Metrics**
-Total Employees: 1,470
-Total Attrition: 237
-Attrition Rate: 16%
-Avg Salary: 6.5K
-Avg Age: 37
-Avg Years at Company: 7
-Top Attrition Department: Sales (20.6%)
+## 📂 Dataset
+- HR Employee dataset  
+- Total Records: ~1470 employees  
+- Key features:
+  - Age
+  - Department
+  - Job Role
+  - Salary
+  - Attrition
+  - Years at Company
+  - OverTime
 
-**🔍 Key Insights**
-The Sales department has the highest attrition rate, indicating potential workload or performance pressure issues
-Employees aged 26–35 show the highest attrition trends
-Employees with 0–1 years and 5–10 years experience show higher likelihood of leaving
-Overtime is strongly associated with higher attrition, suggesting work-life balance as a key factor
-Gender distribution shows slightly higher retention among male employees
+---
 
-**🛠 Tools & Technologies**
-Power BI
-DAX (Data Analysis Expressions)
-Data Cleaning & Transformation
+## 📊 Dashboard Preview
+[HR-Analytics-Dashboard](images/HR_DASHBOARD.png)
 
-**🚀 Business Impact**
+---
 
+## 📈 Key Metrics
+- Total Employees: 1,470  
+- Total Attrition: 237  
+- Attrition Rate: 16%  
+- Average Salary: 6.5K  
+- Average Age: 37  
+- Avg Years at Company: 7  
+- Top Attrition Department: **Sales (20.6%)**
+
+---
+
+## 🔍 Key Insights
+- The **Sales department** shows the highest attrition rate, indicating potential performance pressure or workload challenges  
+- Employees aged **26–35** have the highest likelihood of leaving  
+- Attrition is higher among employees with **0–1 years and 5–10 years of experience**, suggesting onboarding and mid-career challenges  
+- Employees working **overtime are significantly more likely to leave**, highlighting work-life balance issues  
+- Gender distribution shows relatively balanced workforce composition with slight variation in attrition trends  
+
+---
+
+## 🛠 Tools & Technologies
+- Power BI  
+- DAX (Data Analysis Expressions)  
+- Data Cleaning & Transformation  
+
+---
+
+## 🚀 Business Impact
 This dashboard enables HR teams to:
+- Identify high-risk employee segments  
+- Improve retention and engagement strategies  
+- Address workload imbalance issues  
+- Make data-driven workforce decisions  
 
-Identify high-risk employee segments
-Improve retention strategies
-Optimize workload and employee engagement
-Make data-driven workforce decisions# HR-Analytics-Dashboard
-Power BI dashboard analyzing employee attrition
